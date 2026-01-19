@@ -58,7 +58,7 @@ def calculate_bill():
 if __name__ == "__main__":
     place_order("Vanilla", "cone")
     place_order("Chocolate", "cup")
-    place_order("Strawberry", "cone")   # ✅ New valid order
+    place_order("Strawberry", "cone")   # New valid order
     place_order("Mango", "cone")        # Invalid flavor
     place_order("Strawberry", "plate")  # Invalid serving
 
